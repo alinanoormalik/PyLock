@@ -17,8 +17,9 @@ Welcome to **PyLock**! 🎉 A collection of cryptographic tools and a password m
 ## Getting Started
 1. Clone the repository:
     git clone https://github.com/alinanoormalik
+   
    cd PyLock
-2. Install dependencies
+3. Install dependencies
     pip install cryptography pycryptodome
    
 ### Running Algorithms
