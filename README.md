@@ -2,18 +2,6 @@
 Welcome to **PyLock**! 🎉 A collection of cryptographic tools and a password manager, all built with Python. I’ll keep adding more projects in the future, so stay tuned!
 
 ## Project Structure
-PyLock/
-│
-├── Algorithms/
-│   ├── caesar_cipher.py
-│   └── vigenere_cipher.py
-│
-├── password_manager/
-│   ├── passkeep.py
-│   └── passshield.py
-│
-└── README.md
----
 
 ## What’s Inside?
 ### Algorithms
