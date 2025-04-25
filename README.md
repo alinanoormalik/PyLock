@@ -1,30 +1,55 @@
-# NetCrypt
-Welcome to **NetCrypt**! This is a collection of Python-based projects focused on **cybersecurity**, **networking**, and **cryptography**.
-The goal here is to build tools that help demonstrate core security concepts in a practical way, and also serve as educational resources for anyone interested in learning about these topics.
+# PyLock
+Welcome to **PyLock**! 🎉 A collection of cryptographic tools and a password manager, all built with Python. I’ll keep adding more projects in the future, so stay tuned!
 
+## Project Structure
+PyLock/
+│
+├── Algorithms/
+│   ├── caesar_cipher.py
+│   └── vigenere_cipher.py
+│
+├── password_manager/
+│   ├── passkeep.py
+│   └── passshield.py
+│
+└── README.md
 ---
+
 ## What’s Inside?
-### Cryptography
-- **Caesar Cipher** – A basic encryption technique where each letter in the plaintext is shifted by a certain number.
-- **Vigenère Cipher** – A more advanced cipher using a keyword to encrypt the message.
+### Algorithms
+1. **Caesar Cipher**: A simple substitution cipher where each letter in the plaintext is shifted by a certain number.
+2. **Vigenère Cipher**: A stronger encryption technique that uses a keyword to shift letters. 
 
-### Networking & Security (Coming Soon)
-- Tools like port scanners, packet sniffers, and symmetric encryption methods like AES and Fernet.
-- Utilities for password management, hashing, and basic network monitoring.
-
----
-## What’s Coming Next?
-There’s a lot more to come in **NetCrypt**. Here are just a couple of things I’m currently working on:
-
-### **Networking Project: Packet Sniffer**
-A packet sniffer that will allow you to capture and analyze network traffic. 
-This is a great way to understand how data moves through networks and can help in detecting potential security risks.
-### **Cybersecurity Project: Password Manager**
-A secure password manager to safely store and encrypt your credentials.
-It will generate strong passwords and keep them safe,all built with Python’s cryptography libraries to ensure your data stays protected.
+### Password Manager
+1. **Passkeep**: A simple yet effective password manager that allows you to store, retrieve, and delete your passwords securely. It uses a basic text file to store the credentials.
+2. **Passshield**: A password strength checker that helps you assess the security of your password and gives feedback based on its strength.
 
 ---
+
 ## Getting Started
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/alinanoormalik/NetCrypt
+    git clone https://github.com/alinanoormalik
+   cd PyLock
+2. Install dependencies
+    pip install cryptography pycryptodome
+   
+### Running Algorithms
+ **Caesar Cipher**
+   python ciphers/caesar_cipher.py
+**Vigenère Cipher**
+   python ciphers/vigenere_cipher.py
+
+### Running Password Manager
+**Passkeep**
+   python password_manager/passkeep.py
+**Passshield**
+   python password_manager/passshield.py
+
+--- 
+
+### Future Work
+I’ll continue to add more tools and features in the future. Stay tuned for updates!
+
+
+            
+
